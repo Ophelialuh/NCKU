@@ -8,10 +8,7 @@ def mean():
         a.append(value)
 
     A = pd.Series(a).mean()
-    # B = pd.Series(a).std()
-    # print('平均', A)
-    # print('標準差', B)
-    # print('平均+1個標準差', A+B)
+
     return A
 
 if __name__ == '__main__':
